@@ -48,9 +48,17 @@ body{
 }
 
 .header{
-    margin: 40px 20px 0;
+    margin: 0 20px;
+    height: 60px;
+    padding-bottom: 15px;
+    font-family: "Open Sans", sans-serif;
     font-size: 0;
-    
+    line-height: 45px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
 }
 
 .header li{
@@ -65,24 +73,83 @@ body{
 
 .header .logo{
     width: 15%;
+    height: 100%;
 }
 
 .header .navbar{
     width: 70%;
     text-align: center;
-
 }
 .header .navbar ul{
     padding: 0;
 }
 
+.header .navbar a{
+    text-decoration: none;
+    color: #025157;
+    padding: 8px;
+}
+
 .header .actions{
     width: 15%;
     text-align: right;
+    font-size: 14px;
+}
+
+.header .actions a{
+    color: #67b54b;
+    text-decoration: none;
 }
 
 .header .button {
+    font-family: "Open Sans", sans-serif;
     color: #fff;
     background-color: #67b54b;
     border-radius: 5px;
+    margin: 0 10px;
+    border: none;
+    padding: 14px 12px;
 }
+
+.main .intro {
+    margin-top: 32px;
+  }
+  
+  .main .intro img {
+    width: 70%;
+  }
+
+  .video-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin: 100px auto;
+  }
+
+  .video-text h3 {
+      font-family: "Alegreya", serif;
+      font-size: 40px;
+      line-height: 48px;
+      color: #025157;
+  }
+
+  .video-text {
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      color: #46484c;
+      padding-left: 10px;
+  }
+
+  .explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10px;
+  }
+
+  .video-img {
+      width: 120px;
+      margin-top: 10px;
+  }
