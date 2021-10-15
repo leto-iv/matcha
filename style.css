@@ -222,4 +222,58 @@ body{
       color: #7e7e7e;
   }
 
+  /* Empiezan los media queries */
+
+  @media (max-width: 425px) {
+    .actions,
+    .navbar {
+        display: none;
+    }
+
+    .header {
+        padding: 15px 15px 0;
+        z-index: 1;
+        margin: 0;
+    }
+
+    .main {
+        margin-top: 130px;
+    }
+
+    .main h1 {
+        font-size: 30px;
+    }
+
+    .main .promo-text-img > img {
+        width: 100%;
+    }
+    
+    .main .intro {
+        margin: 0 10px;
+    }
+
+    .video-section {
+        flex-direction: column;
+        max-width: 90%;
+        width: unset;
+    }
+
+    .explanatory-video > video {
+        width: 100%;
+    }
+
+    .video-text h3 {
+        font-size: 25px;
+        line-height: 1.5;
+    }
+
+    .features {
+        grid-template: repeat(4, 1fr) / 1fr;
+        height: unset;
+    }
+
+    .feature-image {
+        display: none;
+    }
+  }
 
